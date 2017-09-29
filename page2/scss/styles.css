@@ -17,10 +17,17 @@
 .bgviolet {
   background-color: violet; }
 
+.text {
+  color: #ffffff;
+  position: absolute;
+  font-family: "Arial", sans-serif;
+  left: 44.5%;
+  top: 20%; }
+
 .circle1 {
   width: 150px;
   height: 150px;
-  background-color: #ffffff;
+  background-color: red;
   border: 3px solid #ffffff;
   border-radius: 100%;
   position: absolute;
@@ -30,12 +37,13 @@
   transition: border 0.3s ease-in-out; }
 
 .circle1:active {
-  border-color: red; }
+  border-color: red;
+  background-color: #ffffff; }
 
 .circle2 {
   width: 150px;
   height: 150px;
-  background-color: #ffffff;
+  background-color: blue;
   border: 3px solid #ffffff;
   border-radius: 100%;
   position: absolute;
@@ -45,12 +53,13 @@
   transition: border 0.3s ease-in-out; }
 
 .circle2:active {
-  border-color: blue; }
+  border-color: blue;
+  background-color: #ffffff; }
 
 .circle3 {
   width: 150px;
   height: 150px;
-  background-color: #ffffff;
+  background-color: yellow;
   border: 3px solid #ffffff;
   border-radius: 100%;
   position: absolute;
@@ -60,12 +69,13 @@
   transition: border 0.3s ease-in-out; }
 
 .circle3:active {
-  border-color: yellow; }
+  border-color: yellow;
+  background-color: #ffffff; }
 
 .circle4 {
   width: 150px;
   height: 150px;
-  background-color: #ffffff;
+  background-color: green;
   border: 3px solid #ffffff;
   border-radius: 100%;
   position: absolute;
@@ -75,12 +85,13 @@
   transition: border 0.3s ease-in-out; }
 
 .circle4:active {
-  border-color: green; }
+  border-color: green;
+  background-color: #ffffff; }
 
 .circle5 {
   width: 150px;
   height: 150px;
-  background-color: #ffffff;
+  background-color: violet;
   border: 3px solid #ffffff;
   border-radius: 100%;
   position: absolute;
@@ -90,6 +101,7 @@
   transition: border 0.3s ease-in-out; }
 
 .circle5:active {
-  border-color: violet; }
+  border-color: violet;
+  background-color: #ffffff; }
 
 /*# sourceMappingURL=styles.css.map */
