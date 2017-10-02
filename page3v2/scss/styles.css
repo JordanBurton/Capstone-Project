@@ -1,0 +1,16 @@
+.body {
+  background: linear-gradient(to bottom right, #0fe7aa 40%, #0f96cb 100%) fixed; }
+
+.title {
+  font-family: "Arial", sans-serif;
+  font-size: 50px;
+  left: 5%;
+  top: 35%;
+  position: absolute;
+  background: -webkit-linear-gradient(#66b3ff, #66ffcc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: skewX(-20deg);
+  transform: skewY(-26deg); }
+
+/*# sourceMappingURL=styles.css.map */
