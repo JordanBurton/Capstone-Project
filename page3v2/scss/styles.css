@@ -1,16 +1,43 @@
 .body {
-  background: linear-gradient(to bottom right, #0fe7aa 40%, #0f96cb 100%) fixed; }
+  background: #9bff77;
+  overflow: hidden; }
 
 .title {
   font-family: "Arial", sans-serif;
   font-size: 50px;
-  left: 5%;
-  top: 35%;
+  left: 8%;
+  top: 40%;
   position: absolute;
   background: -webkit-linear-gradient(#66b3ff, #66ffcc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: skewX(-20deg);
   transform: skewY(-26deg); }
+
+.bottomright {
+  width: 100%;
+  height: 80em;
+  background-color: #77c0ff;
+  position: absolute;
+  left: 300px;
+  top: -100px;
+  z-index: 0;
+  transform: skewX(-64deg);
+  border-style: solid;
+  border-width: 60px;
+  border-left-color: #ff8577; }
+
+.topleft {
+  width: 100%;
+  height: 100em;
+  background-color: #77c0ff;
+  position: absolute;
+  left: -1980px;
+  top: -100px;
+  z-index: 0;
+  transform: skewX(-64deg);
+  border-style: solid;
+  border-width: 60px;
+  border-right-color: #ff8577; }
 
 /*# sourceMappingURL=styles.css.map */
