@@ -1,0 +1,36 @@
+.body {
+  overflow: hidden;
+  background-color: #8ff4ff; }
+
+.colleft {
+  width: 33%;
+  height: 100em;
+  background-color: #ffddae;
+  position: absolute;
+  left: 0em;
+  top: 0em;
+  z-index: 1; }
+
+.colmid {
+  width: 33%;
+  height: 100em;
+  background-color: #fff2ae;
+  position: absolute;
+  left: 33em;
+  top: 0em;
+  z-index: 1; }
+
+.colright {
+  width: 33%;
+  height: 100em;
+  background-color: #ffc9ae;
+  position: absolute;
+  left: 66em;
+  top: 0em;
+  z-index: 1; }
+
+.titles {
+  font-family: "Arial", sans-serif;
+  text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */
